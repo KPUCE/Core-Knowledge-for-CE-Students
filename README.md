@@ -22,3 +22,7 @@
 ### 트리(Tree), 이중탐색트리(Binary Search Tree), **균형이진탐색트리(Balanced Binary Search Tree)**
   * 특징, 응용분야, 삽입/삭제 시간복잡도, 탐색 시간복잡도
   * 균형이진탐색트리의 종류(AVL 트리, Red-Black Tree, B tree, B+ Tree), 균형이진탐색트리의 장점 및 다양한 응용분야
+
+### graph 자료구조의 주요 알고리즘
+  * 최단경로 알고리즘(Shortest Path Algorithm): 개념, 응용분야
+  * 최소신장트리 알고리즘(Minimum Spanning Tree Algorithm): 개념, 응용분야
