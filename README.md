@@ -26,7 +26,11 @@
   * 특징, 응용분야, 삽입/삭제 시간복잡도, 탐색 시간복잡도
   * 균형이진탐색트리의 종류(AVL 트리, Red-Black Tree, B tree, B+ Tree), 균형이진탐색트리의 장점 및 다양한 응용분야
 
+### 정렬과 탐색 알고리즘 (Sorting and Searching algorithm)
+  * 정렬 알고리즘(합병정렬, 퀵정렬, 힙정렬)
+  * 탐색 알고리즘(이진탐색, 해시기반탐색)
+    
 ### graph 자료구조의 주요 알고리즘
-  * 탐색 알고리즘(Depth-First Search, Breadth-First Search)
+  * 그래프 탐색 알고리즘(Depth-First Search, Breadth-First Search)
   * 최단경로 알고리즘(Shortest Path Algorithm): 개념, 응용분야
   * 최소신장트리 알고리즘(Minimum Spanning Tree Algorithm): 개념, 응용분야
