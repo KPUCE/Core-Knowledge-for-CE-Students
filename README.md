@@ -22,7 +22,7 @@
 ### 스택(Stack)과 큐(Queue)
   * 특징, 응용분야, 삽입/삭제 시간복잡도, 탐색 시간복잡도
 
-### 트리(Tree), 이진탐색트리(Binary Search Tree), **균형이진탐색트리(Balanced Binary Search Tree)**
+### 트리(Tree), 이진트리, heap, 이진탐색트리(Binary Search Tree), **균형이진탐색트리(Balanced Binary Search Tree)**
   * 특징, 응용분야, 삽입/삭제 시간복잡도, 탐색 시간복잡도
   * 균형이진탐색트리의 종류(AVL 트리, Red-Black Tree, B tree, B+ Tree), 균형이진탐색트리의 장점 및 다양한 응용분야
 
