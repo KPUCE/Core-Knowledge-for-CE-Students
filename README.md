@@ -35,13 +35,26 @@
   * 최단경로 알고리즘(Shortest Path Algorithm): 개념, 응용분야
   * 최소신장트리 알고리즘(Minimum Spanning Tree Algorithm): 개념, 응용분야
 
-## 3. 운영체제
+## 3. 운영체제와 UNIX 시스템프로그래밍
 
 ### Process와 Thread 개념 이해
   * Process와 thread의 개념 이해, process 상태(특히 ready, running, block 상태), 문맥교환(context switching) 이해, Multithreading을 사용하는 이유
+  * Process Scheduling 기법의 이해, 성능 지표 이해
 
-### 병행처리(Concurrent Processing)
+### **병행처리(Concurrent Processing)**
   * 병행처리의 개념 이해, 병행처리의 장점, 병행처리시 문제점(race condition), 문제점 해결 방안 개념이해, 상호배제와 동기화의 이해
-  * 상호배제와 동기화 툴: Mutually exclusive lock, Semaphore(binary semaphore, counting semaphore), reader/writer lock, condition variable
+  * 상호배제와 동기화 툴: Mutually exclusive lock, Semaphore(binary semaphore, counting semaphore), reader/writer lock, condition variable, monitor
   * 병행처리 문제점: deadlock과 starvation의 이해, dining philosopher 문제의 애해 및 해결방법 이해
+
+### 메모리 관리(Memory Management)
+  * 메모리 관리 기법(특히 paging과 segmentation 기법의 이해)
+  * 가상메모리(Virtual Memory)의 개념 이해, page replacement algorithm의 이해
+
+### File System과 File, Directory
+  * 파일시스템의 구조, Virtual File System의 이해
+  * file과 관련된 primitive의 동작 원리 이해
+  * Directory 구조에 대한 이해, 경로명을 찾는 방법 이
+    
+### 프로세스간 통신기법(IPC: Inter Process Communication)
+  * IPC 기법이 필요한 이유, 대표적인 IPC 기법(pipe, message passing, shared memory, semaphore, socket)
 
