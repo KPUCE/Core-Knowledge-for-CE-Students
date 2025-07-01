@@ -55,6 +55,7 @@
   * file과 관련된 primitive의 동작 원리 이해
   * Directory 구조에 대한 이해, 경로명을 찾는 방법 이
     
-### 프로세스간 통신기법(IPC: Inter Process Communication)
+### 프로세스간 통신기법(IPC: Inter Process Communication)와 signal
   * IPC 기법이 필요한 이유, 대표적인 IPC 기법(pipe, message passing, shared memory, semaphore, socket)
+  * signa지
 
