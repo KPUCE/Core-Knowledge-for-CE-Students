@@ -27,5 +27,6 @@
   * 균형이진탐색트리의 종류(AVL 트리, Red-Black Tree, B tree, B+ Tree), 균형이진탐색트리의 장점 및 다양한 응용분야
 
 ### graph 자료구조의 주요 알고리즘
+  * 탐색 알고리즘(Depth-First Search, Breadth-First Search)
   * 최단경로 알고리즘(Shortest Path Algorithm): 개념, 응용분야
   * 최소신장트리 알고리즘(Minimum Spanning Tree Algorithm): 개념, 응용분야
