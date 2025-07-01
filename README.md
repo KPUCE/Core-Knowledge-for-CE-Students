@@ -59,3 +59,7 @@
   * IPC 기법이 필요한 이유, 대표적인 IPC 기법(pipe, message passing, shared memory, semaphore, socket)
   * signa지
 
+## 3. 운영체제와 UNIX 시스템프로그래밍
+
+### Process와 Thread 개념 이해
+  * Process와 thread의 개념 이해, process 상태(특히 ready, running, block 상태), 문맥교환(context switching) 이해, Multithreading을 사용하는 이유
