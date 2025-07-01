@@ -34,3 +34,14 @@
   * 그래프 탐색 알고리즘(Depth-First Search, Breadth-First Search)
   * 최단경로 알고리즘(Shortest Path Algorithm): 개념, 응용분야
   * 최소신장트리 알고리즘(Minimum Spanning Tree Algorithm): 개념, 응용분야
+
+## 3. 운영체제
+
+### Process와 Thread 개념 이해
+  * Process와 thread의 개념 이해, process 상태(특히 ready, running, block 상태), 문맥교환(context switching) 이해, Multithreading을 사용하는 이유
+
+### 병행처리(Concurrent Processing)
+  * 병행처리의 개념 이해, 병행처리의 장점, 병행처리시 문제점(race condition), 문제점 해결 방안 개념이해, 상호배제와 동기화의 이해
+  * 상호배제와 동기화 툴: Mutually exclusive lock, Semaphore(binary semaphore, counting semaphore), reader/writer lock, condition variable
+  * 병행처리 문제점: deadlock과 starvation의 이해, dining philosopher 문제의 애해 및 해결방법 이해
+
