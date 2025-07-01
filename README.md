@@ -41,7 +41,7 @@
   * Process와 thread의 개념 이해, process 상태(특히 ready, running, block 상태), 문맥교환(context switching) 이해, Multithreading을 사용하는 이유
   * Process Scheduling 기법의 이해, 성능 지표 이해
 
-### **병행처리(Concurrent Processing)**
+### *병행처리(Concurrent Processing)*
   * 병행처리의 개념 이해, 병행처리의 장점, 병행처리시 문제점(race condition), 문제점 해결 방안 개념이해, 상호배제와 동기화의 이해
   * 상호배제와 동기화 툴: Mutually exclusive lock, Semaphore(binary semaphore, counting semaphore), reader/writer lock, condition variable, monitor
   * 병행처리 문제점: deadlock과 starvation의 이해, dining philosopher 문제의 애해 및 해결방법 이해
