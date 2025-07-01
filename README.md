@@ -57,9 +57,33 @@
     
 ### 프로세스간 통신기법(IPC: Inter Process Communication)와 signal
   * IPC 기법이 필요한 이유, 대표적인 IPC 기법(pipe, message passing, shared memory, semaphore, socket)
-  * signa지
+  * signal 이해, signal의 종류, signal 처리 방법 3가지
 
-## 3. 운영체제와 UNIX 시스템프로그래밍
+## 4. 컴퓨터네트워크와 네트워크프로그래밍
 
-### Process와 Thread 개념 이해
-  * Process와 thread의 개념 이해, process 상태(특히 ready, running, block 상태), 문맥교환(context switching) 이해, Multithreading을 사용하는 이유
+### OSI 7 layer의 이해
+  * OSI 7 Layer 각 계층의 기능 이해(특히 datalink layer, network layer, transport layer의 기능 이해)
+  * 각 layer의 address에 대한 이해
+
+### TCP/IP 프로토콜
+  * IP(Internet Protocol)의 기능 이해(OSI 7 layer의 network layer 기능 수행)
+  * TCP와 UDP의 이해 및 사용 용도 (OSI 7 layer의 transport layer 기능 수행)
+
+### How to Write a Network Programming
+  * 네트워크 프로그램을 작성하는 2가지 방법의 이해(Application-oriented approach vs. Communication-oriented approach)
+  * 프로세스간 통신 기법(IPC: Inter Process Communication)의 이해
+  * Communication-oriented approach: Socket API를 이용한 네트워크 프로그래밍
+  * Application-oriented approach: RPC(Remote Procedure Call)을 이용한 네트워크 프로그래밍
+
+### Socket을 이용한 네트워크 프로그램 작성 방법
+   * Socket을 이용한 네트워크 프로그램 동작 방식(Connection-oriented protocol vs. Connectionless protocol)의 이해
+   * Berkeley Socket API의 이해, 각 API가 하는 작업 이해
+   * blocking I/O model, Asynchronous I/O model의 이해
+   * Windows Socket, Java Socket 등 각 언어에서 제공하는 Socket API의 이해 및 프로그램 작성
+   * thread pool의 이해 및 thread pool을 이용한 대용량 서버 구축 방법 이해
+
+### RPC을 이용한 네트워크 프로그램 작성 방법
+   * RPC을 이용한 네트워크 프로그램 동작 방식의 이해(client stub, server stub의 역할 이해)
+   * IDL(Interface Definition Language)의 역할 이해 및 작성 방법 이해
+   * Mocrosoft RPC, google RPC(gRPC)를 활용한 네트워크 프로그래밍 작성
+     
