@@ -86,4 +86,27 @@
    * RPC을 이용한 네트워크 프로그램 동작 방식의 이해(client stub, server stub의 역할 이해)
    * IDL(Interface Definition Language)의 역할 이해 및 작성 방법 이해
    * Mocrosoft RPC, google RPC(gRPC)를 활용한 네트워크 프로그래밍 작성
-     
+   
+## 5. 데이터베이스
+
+### 관계형 데이터베이스(Relational DB)와 SQL(Structured Query Language), 정규화(Normalization)
+  * 관계형 데이터베이스의 개념, 특징 
+  * SQL 언어의 기본사용법, 고급사용법
+  * 정규화의 개념, 필요성, 문제점
+
+### 트랜잭션(Transaction)과 병행성 제어(Concurrency Control)
+  * 트랜잭션의 ACID(Atomic, Consistency, Isolation, Durability) 속성
+  * 병행성 제어(locking, timestampe, 다중 버전 제어)
+
+### 인덱스(index)와 성능 최적화
+  * 인덱스의 개념과 종류(B-Tree, Hash, Bitmap)
+  * 쿼리 최적화
+  * 성능 튜닝
+
+### 데이터베이스 설계와 모델링
+  * 개념적 설계, 논리적 설계, 물리적 설계
+  * 데이터 모델링 도구: ER(ntity-Relation) Diagram을 이용한 설계와 문서화
+
+### 비정형 데이터베이스
+  * 비정형 데이터베이스 개념, 주요 특성, 주요 종류
+  * 대표적인 비정형 DB 개념 이해: MongoDB(문서형 데이터베이스), Redis(key-value 데이터베이스)
